@@ -82,9 +82,9 @@ export function Skills() {
     <section
       ref={root}
       id="presence"
-      className="relative overflow-hidden bg-[#eef2f0] py-24 text-ink md:py-32"
+      className="relative overflow-hidden bg-[#d9e5e0] py-24 text-ink md:py-32"
     >
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_15%_0%,rgba(61,107,102,0.12),transparent_50%),radial-gradient(ellipse_at_90%_100%,rgba(143,168,138,0.1),transparent_55%)]" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_20%_0%,rgba(61,107,102,0.16),transparent_55%),radial-gradient(ellipse_at_85%_100%,rgba(143,168,138,0.14),transparent_50%)]" />
 
       <div className="relative mx-auto max-w-[1400px] px-5 md:px-10">
         <p
@@ -139,7 +139,7 @@ export function Skills() {
             <div
               key={group.title}
               data-skill-group
-              className="rounded-2xl border border-ink/8 bg-paper/80 p-6 shadow-[0_10px_40px_rgba(23,25,28,0.04)] md:p-7"
+              className="rounded-2xl border border-ink/10 bg-[#f3f6f4] p-6 shadow-[0_12px_36px_rgba(23,25,28,0.06)] md:p-7"
             >
               <h3 className="font-display text-2xl tracking-[-0.02em] text-ink">
                 {group.title}
